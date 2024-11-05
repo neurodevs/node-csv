@@ -1,5 +1,5 @@
 import { FileLoaderOptions } from '@neurodevs/node-file-loader'
-import CsvLoaderImpl from '../CsvLoader'
+import CsvLoaderImpl from '../../CsvLoader'
 
 export default class SpyCsvLoader extends CsvLoaderImpl {
     public numCallsToValidatePath = 0

@@ -1,4 +1,4 @@
-import { CsvLoader, CsvRow } from '../CsvLoader'
+import { CsvLoader, CsvRow } from '../../CsvLoader'
 
 export default class FakeCsvLoader implements CsvLoader {
     private static fakeData: CsvRow[] = []

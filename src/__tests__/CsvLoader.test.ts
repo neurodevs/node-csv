@@ -3,7 +3,7 @@ import AbstractSpruceTest, { test, assert } from '@sprucelabs/test-utils'
 import { FileLoaderOptions } from '@neurodevs/node-file-loader'
 import csvParser from 'csv-parser'
 import CsvLoaderImpl, { CsvRow } from '../CsvLoader'
-import SpyCsvLoader from '../testDoubles/SpyCsvLoader'
+import SpyCsvLoader from '../testDoubles/CsvLoader/SpyCsvLoader'
 
 export default class CsvLoaderTest extends AbstractSpruceTest {
     private static actualPath: string
