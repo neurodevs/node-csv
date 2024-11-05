@@ -87,7 +87,7 @@ async function extractCsvData() {
 ### Example Code
 
 ```typescript
-import { CsvExtractorImpl, ExtractionRule } from '@neurodevs/node-csv-extractor'
+import { CsvExtractorImpl, ExtractionRule } from '@neurodevs/node-csv'
 
 async function extractStroboscopicData() {
     const extractor = await CsvExtractorImpl.Create('/path/to/csv')
@@ -138,7 +138,7 @@ import {
   CsvLoaderImpl,
   FakeCsvLoader,
   SpyCsvLoader
-} from '@neurodevs/node-csv-loader'
+} from '@neurodevs/node-csv'
 
 // Use FakeCsvLoader for simulating inputs and outputs in tests
 CsvLoaderImpl.Class = FakeCsvLoader
