@@ -1,6 +1,6 @@
 {
   "name": "@neurodevs/node-csv",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "build/index.js",
   "repository": "https://github.com/neurodevs/node-csv.git",
   "scripts": {
