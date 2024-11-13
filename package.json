@@ -1,6 +1,6 @@
 {
   "name": "@neurodevs/node-csv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "build/index.js",
   "repository": "https://github.com/neurodevs/node-csv.git",
   "scripts": {
@@ -26,10 +26,10 @@
     "watch.tsc": "tsc -w"
   },
   "devDependencies": {
-    "@sprucelabs/jest-json-reporter": "^8.0.539",
-    "@sprucelabs/resolve-path-aliases": "^2.0.513",
+    "@sprucelabs/jest-json-reporter": "^8.0.540",
+    "@sprucelabs/resolve-path-aliases": "^2.0.514",
     "@sprucelabs/test": "^9.0.57",
-    "@sprucelabs/test-utils": "^5.1.497",
+    "@sprucelabs/test-utils": "^5.1.500",
     "@types/node": "^22.9.0",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.14.0",
